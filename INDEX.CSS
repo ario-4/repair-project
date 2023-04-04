@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+a{
+    color: aliceblue;
+}
+.head-foot{
+    width: 100%;
+    font-family: 'Oswald', sans-serif; ;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+
+}
+.head-foot h1,h5,h2{
+    color: white;
+   
+}
+.head-foot h1{
+    font-size: 50px;
+   padding-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    
+}
+.head-foot h2{
+    font-size: 16px;
+    position: absolute;
+    right: 300px;
+    top:20px;
+    font-weight: 1;
+}
+.head-foot .hover{
+    width: 400px;
+    height: 30px;
+   background-color: rgba(0, 1, 2, 0.651);
+    position: absolute;
+    top: 43px;
+    z-index: 4;
+
+
+}
+.head-foot h5{
+    position: absolute;
+    top:60px;
+    letter-spacing: 10px;
+    font-size: 16px;
+}
+.contaner nav{
+    width: 100%;
+    background-color: black;
+    COLOR:white;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    
+
+}
+.contaner nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 50%;
+    background-image: linear-gradient(to top ,black, rgb(5, 5, 5) 70%, white 388%);
+   
+    z-index: 1;
+    
+   
+}
+.contaner nav li{
+    padding: 10px 20px 50px;
+    border: 1px solid rgb(5, 5, 5);
+    border-top: none;
+
+}
+
+.contaner nav .hover-nav{
+    width:30%;
+    height: 79px;
+    position: absolute;
+    background-image: linear-gradient(to right, black,white 40%,black);
+    top:113px
+
+  
+}
+
+.contaner nav .haver-nav2{
+    width:30%;
+    height: 79px;
+    position: absolute;
+    background-image: linear-gradient(to right, black 23%,white 46%,black 77%);
+    top:115px
+}
+
+.contaner nav li:nth-child(1){
+    border-left: NONE;
+}
+.contaner nav li:nth-child(6){
+    border-right: none;
+}
+.contaner .back{
+    background-color: black;
+    color: aliceblue;
+    padding-top: 70px;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.contaner .back h1:nth-child(1){
+    padding-left: 300px;
+    font-size: 80px;
+    font-weight: 1;
+    letter-spacing: 8px;
+    
+    
+
+}
+.contaner .back h1:nth-child(2){
+    margin-left: 300px;
+    color: rgba(240, 248, 255, 0.178);
+}
+.contaner .back ul{
+    margin-left: 320px;
+    margin-top: 30px;
+    
+}
+.contaner .back ul li{
+    line-height: 29px;
+}
+.contaner .back button{
+    margin-left: 300px;
+    margin-top: 70px;
+    border-radius: 5px;
+    background-image: linear-gradient(black 30%,white 700%);
+    color: aliceblue;
+    padding: 5px 10px;
+    border: none;
+    
+
+}
+.contaner .back .hover-white{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    background-image: radial-gradient(white 10%,black 100%,black 30%);
+    filter: blur(80px);
+    top:350px;
+    right:500px;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+.contaner .back img{
+    position: absolute;
+    top:250px;
+    width: 470px;
+    right: 400px;
+    z-index: 1;
+}
+ .final-header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    
+}
+section{
+    background-color: black;
+}
+SECTION .item-box{
+    width: 80%;
+    display: flex;
+    background-color: black;
+    min-height: 500px;
+    margin: auto;
+    gap: 50px;
+    justify-content: space-between;
+    
+
+
+
+}
+SECTION .item-box .item{
+    width: 20%;
+    height: 100%;
+    color: aliceblue;
+    margin-top: 100px;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+   
+   
+
+    
+}
+SECTION .item-box .item img{
+    width: 150px;
+    height: 150px;
+    
+    margin-top: 0;
+   
+}
+SECTION .item-box .item h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+SECTION .item-box .item p{
+    margin-top: 30px;
+}
+SECTION .item-box .item h3:nth-child(2){
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1;
+
+}
+SECTION .item-box .item h2{
+    width: 100%;
+    margin-top: 20PX;
+
+
+}
+SECTION .item-box .item button{
+
+    border-radius: 5px;
+    background-image: linear-gradient(black 30%,white 700%);
+    color: aliceblue;
+    margin-top: 20px;
+     width: 120PX;
+     margin-right: 180PX;
+ 
+    border: none;
+   
+    padding: 3px 1PX;
+    
+}
+footer div.footer{
+    width: 100%;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    
+
+
+}
+footer div.footer ul{
+    list-style: none;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 50px;
+
+}
+footer div.footer ul li{
+    padding: 5px 20px;
+
+}
+footer div.footer ul li a{
+    color: rgb(80, 78, 78);
+}
+footer div.footer-2{
+    background-color: black;
+    margin: auto;
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+   
+    
+}
+footer div.footer-2 P{
+    font-size: 10px;
+   
+}
+

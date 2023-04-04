@@ -1,0 +1,34 @@
+section .contaner{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+ padding: 100px 100px 300px;
+ margin: auto;
+ flex-wrap: wrap;
+
+
+}
+section .contaner .item{
+    color: rgb(215, 216, 218);
+    width: 500px;
+   
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section .contaner .item h1{
+    padding-bottom: 70px;
+    width: 100%;
+}
+section .contaner .item i{
+    padding-top: 0px;
+    cursor: pointer;
+
+
+}
+section .contaner .item pre,p{
+    width: 100%;
+}
+
+    

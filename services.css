@@ -1,0 +1,86 @@
+body{background-color: black;}
+.contaner{
+    width: 90%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: black;
+
+}
+.contaner .link{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    margin-top: 100px;
+    padding: 0 100px;
+    
+   
+}
+.contaner .link .item{
+    display: flex;
+    justify-content: space-between;
+    width: 18%;
+    align-items: center;
+   
+
+}
+.contaner .link .item h1{
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 1;
+}
+.contaner .link .item i{
+    color: rgb(108, 108, 110);
+    font-size: 100px;
+}
+.contaner .main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 100px;
+    margin: auto;
+    color: white;
+
+    justify-content: space-between;
+    margin-top: 100px;
+    font-family: 'Oswald', sans-serif;
+}
+.contaner .main .item-1{
+    width: 10%;
+ 
+
+
+}
+.contaner .main .item-1 ul{
+    margin-top: 50px;
+}
+.contaner .main .item-1 li{
+    margin-top: 30px;
+    font-size: small;
+
+}
+.contaner .main .item-2{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-left:100px;
+}
+.contaner .main .item-2 img{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+
+.contaner .main .item-3{
+    width: 30%;
+    padding-top: 80px;
+}
+.contaner .main .item-3 p:nth-child(2){
+    margin-top: 100px;
+}
